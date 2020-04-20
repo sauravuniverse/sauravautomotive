@@ -1,0 +1,31 @@
+<ActionBar title="Home" class="action-bar">
+	<StackLayout orientation="horizontal" ios:horizontalAlignment="center" android:horizontalAlignment="center">
+		<Label text="Minimalism" class="action-label"></Label>
+	  </StackLayout>
+</ActionBar>
+
+
+<StackLayout orientation="vertical" class="main">
+
+	<Image #logo width="140" class="vod-logo" src="~/login/applelogo.png"></Image>
+	<StackLayout #circle width="100" height="100" class="login-done" orientation="horizontal"></StackLayout>
+
+	<StackLayout [visibility]="navigating ? 'collapsed' : 'visible'" orientation="horizontal" class="reg-log-container">
+		<Label text="L O G I N" (tap)="setToLogin()" [ngClass]="[isLogin ? 'reg-active' : 'reg-deactive']"></Label>
+        <!-- <Label text=" | " class="reg-separator"></Label> -->
+        <!-- <Label text="R E G I S T E R" (tap)="setToRegister()" [ngClass]="[!isLogin ? 'reg-active' : 'reg-deactive']"></Label> -->
+    </StackLayout>
+
+
+    <StackLayout [visibility]="navigating ? 'collapsed' : 'visible'" orientation="vertical" class="form-container" [ngClass]="[formSubmitted ? 'form-container-submitted' : 'form-container']">
+        <TextField  [(ngModel)]="phoneNumber" hint="VehicleId"  class="input-field" textAlignment="center"></TextField>
+		<TextField [(ngModel)]="password" hint="Password" class= "input-field" textAlignment="center"></TextField>
+		<TextField #item [(ngModel)]="confirmPassword" [visibility]="!isLogin ? 'visible' : 'hidden'" hint="Confirm Password" class="form-input" textAlignment="center"></TextField>
+        <Button (touch)="onFocus($event)" #btn text="{{loginTxt}}" (tap)="onButtonTap()" [nsRouterLink]="['/home']" class="form-button"></Button>
+        <label text="ForgotPassword" (tap)="onForgetPassword()" style="color: #C0392B;" class="forget"></label>
+    </StackLayout>
+
+    <!-- <AbsoluteLayout [visibility]="navigating ? 'collapsed' : 'visible'">
+        <Image left="220" top="-25" width="150" height="150" src="~/home/01.jpg"></Image>
+    </AbsoluteLayout> -->
+</StackLayout>
