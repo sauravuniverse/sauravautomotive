@@ -36,12 +36,12 @@
         "directory": "..\\..\\node_modules\\nativescript-camera"
     },
     {
-        "name": "nativescript-image",
-        "directory": "..\\..\\node_modules\\nativescript-image"
-    },
-    {
         "name": "nativescript-geolocation",
         "directory": "..\\..\\node_modules\\nativescript-geolocation"
+    },
+    {
+        "name": "nativescript-image",
+        "directory": "..\\..\\node_modules\\nativescript-image"
     },
     {
         "name": "nativescript-imagepicker",
@@ -54,6 +54,10 @@
     {
         "name": "nativescript-iqkeyboardmanager",
         "directory": "..\\..\\node_modules\\nativescript-iqkeyboardmanager"
+    },
+    {
+        "name": "nativescript-mapbox",
+        "directory": "..\\..\\node_modules\\nativescript-mapbox"
     },
     {
         "name": "nativescript-social-share",

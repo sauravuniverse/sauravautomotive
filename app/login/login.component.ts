@@ -95,6 +95,14 @@ setToLogin() {
       })
   });
 }
+showPassword
+showHideIcon
+showIcon
+hideIcon
+TextField
+
+
+
 
   
 

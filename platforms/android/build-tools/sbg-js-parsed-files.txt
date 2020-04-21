@@ -1,4 +1,4 @@
-C:\Users\saurav\Downloads\NSPlayground (4)\platforms\android\app\src\main\assets\app\bundle.js
-C:\Users\saurav\Downloads\NSPlayground (4)\platforms\android\app\src\main\assets\app\runtime.js
-C:\Users\saurav\Downloads\NSPlayground (4)\platforms\android\app\src\main\assets\app\tns-java-classes.js
-C:\Users\saurav\Downloads\NSPlayground (4)\platforms\android\app\src\main\assets\app\vendor.js
+C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\bundle.js
+C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\runtime.js
+C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\tns-java-classes.js
+C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\vendor.js

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\saurav\\Downloads\\NSPlayground (4)\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
+            "outputFile": "C:\\Users\\saurav\\Desktop\\sauravautomotive\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-be\\values-be.xml",
             "map": [
                 {
                     "source": "C:\\Users\\saurav\\.gradle\\caches\\transforms-2\\files-2.1\\5e65b63d9d7a731b35024b018ac46f59\\jetified-play-services-basement-11.4.0\\res\\values-be\\values.xml",
