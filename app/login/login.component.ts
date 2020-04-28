@@ -4,6 +4,9 @@ import { Page } from "ui/page";
 import { View } from "tns-core-modules/ui/core/view";
 import { TouchGestureEventData } from "ui/gestures";
 import { RouterExtensions } from "nativescript-angular/router";
+import { HttpClientModule,HttpClient } from "@angular/common/http"
+import {HttpPostService} from "./login.service";
+
 
 @Component({
   selector: 'app-login',
@@ -11,7 +14,7 @@ import { RouterExtensions } from "nativescript-angular/router";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  @ViewChild("item", { static: true }) angularItem: ElementRef;
+    @ViewChild("item", { static: true }) angularItem: ElementRef;
     @ViewChild("btn", { static: true }) btnRef: ElementRef;
     @ViewChild("circle", { static: true }) circleRef: ElementRef;
     @ViewChild("logo", { static: true }) logoRef: ElementRef;
@@ -26,7 +29,7 @@ export class LoginComponent implements OnInit {
     navigating = false;
     loginTxt = "L o g i n";
 
-  constructor(private _page: Page, private routerExtensions: RouterExtensions) { }
+  constructor(private _page: Page, private routerExtensions: RouterExtensions, private myPostService:HttpPostService, http:HttpClientModule ) { }
 
   ngOnInit(): void {
 
@@ -48,6 +51,15 @@ export class LoginComponent implements OnInit {
     this.circleItem.scaleY = 0;
     this.btnItem.translateY = -50;
 }
+
+getdata() {
+
+  this.myPostService.getdata();
+  
+}
+
+
+
 onButtonTap(): void {
 
   this.formSubmitted = true;
@@ -95,11 +107,7 @@ setToLogin() {
       })
   });
 }
-showPassword
-showHideIcon
-showIcon
-hideIcon
-TextField
+
 
 
 

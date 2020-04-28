@@ -9,7 +9,11 @@ import { HomeRoutingModule } from "./home/home-routing.module";
 import { HomeComponent } from "./home/home.component";
 import { LoginComponent } from './login/login.component';
 import { VehicledetailsComponent } from './vehicledetails/vehicledetails.component';
-
+import { UpdatepasswordComponent } from './updatepassword/updatepassword.component';
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NativeScriptCommonModule } from "nativescript-angular/common";
+import { MapComponent } from './map/map.component';
+import { HttpClientModule } from "@angular/common/http"
 @NgModule({
    bootstrap: [
       AppComponent
@@ -18,13 +22,19 @@ import { VehicledetailsComponent } from './vehicledetails/vehicledetails.compone
       AppRoutingModule,
       NativeScriptModule,
       NativeScriptUISideDrawerModule,
-      HomeRoutingModule
-   ],
+      HomeRoutingModule,
+      NativeScriptFormsModule,
+      NativeScriptCommonModule,
+      HttpClientModule
+     
+    ],
    declarations: [
       AppComponent,
       HomeComponent,
       LoginComponent,
-      VehicledetailsComponent
+      VehicledetailsComponent,
+      UpdatepasswordComponent,
+      MapComponent
    ],
    schemas: [
       NO_ERRORS_SCHEMA

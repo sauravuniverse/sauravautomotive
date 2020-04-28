@@ -22,7 +22,12 @@ http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/SideDrawe
 
 				<GridLayout columns="auto, *" class="sidedrawer-list-item">
 					<Label col="0" text="&#xf041;" class="fa"></Label>
-					<Label col="1" text="Map" class="p-r-10"></Label>
+					<Label col="1" text="Map" (tap)="onMapReady()" [nsRouterLink]="['map']"class="p-r-10"></Label>
+				</GridLayout>
+				
+				<GridLayout columns="auto, *" class="sidedrawer-list-item">
+					<Label col="0" text="&#xf023;" class="fa"></Label>
+					<Label col="1" text="UpdatePassword"  (tap)="onupdatepassword()" [nsRouterLink]="['updatepassword']"  class="p-r-10"></Label>
 				</GridLayout>
 
 				<GridLayout columns="auto, *" class="sidedrawer-list-item">

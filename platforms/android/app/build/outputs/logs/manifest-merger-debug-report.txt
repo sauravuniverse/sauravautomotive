@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.2.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\9f10f5d296059a40d70ff56b7b6bfc9a\jetified-mapbox-android-gestures-0.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\3ebcf70c24f61b52f0d1c43806789854\jetified-mapbox-android-services-2.2.10\AndroidManifest.xml:2:1-14:12
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:2:1-19:12
@@ -84,9 +84,9 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\saurav\.grad
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e61e8a338008205d1c294021891a2981\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6761c231775af8cffbefc66101e23e9a\soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.conceal:conceal:1.1.3] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\ca3883f4b28d3dd7dc1359048a86c985\conceal-1.1.3\AndroidManifest.xml:7:1-16:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:3:2-36
 		INJECTED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml
@@ -316,7 +316,7 @@ MERGED from [:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-
 	android:name
 		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
 application
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:21:2-43:16
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:15:5-17:19
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:15:5-17:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\fc1beab5ac12a5804cd872db4efad5e0\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -365,36 +365,42 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\saurav\.gradle\cache
 		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
 	android:name
 		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+service#com.mapbox.services.android.telemetry.service.TelemetryService
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:27:4-93
+MERGED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:9-98
+MERGED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:9-98
+	android:name
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:27:13-90
 activity#com.tns.NativeScriptActivity
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:29:3-41:14
 	android:label
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:31:4-49
 	android:configChanges
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:32:4-65
 	android:theme
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:33:4-44
 	android:name
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:30:4-47
 meta-data#SET_THEME_ON_LAUNCH
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:4-87
 	android:resource
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:50-84
 	android:name
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:15-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:4-40:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:5-57
 	android:name
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:39:5-65
 	android:name
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:39:15-62
 activity#com.tns.ErrorReportActivity
-ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:42:3-57
 	android:name
-		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+		ADDED from C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:42:13-55
 uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from [com.mapbox.mapboxsdk:mapbox-android-services:2.2.10] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\3ebcf70c24f61b52f0d1c43806789854\jetified-mapbox-android-services-2.2.10\AndroidManifest.xml:11:5-79
 MERGED from [com.mapbox.mapboxsdk:mapbox-android-core:0.2.1] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\dd7e870f39c0578a3abbbf001add44bb\jetified-mapbox-android-core-0.2.1\AndroidManifest.xml:11:5-79
@@ -534,10 +540,6 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:9:22-78
-service#com.mapbox.services.android.telemetry.service.TelemetryService
-ADDED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:9-98
-	android:name
-		ADDED from [:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:18-95
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

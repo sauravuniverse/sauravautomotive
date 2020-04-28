@@ -1,0 +1,17 @@
+<ActionBar title="maps" class="action-bar" style="background-color:#1FAFD9 ;"></ActionBar>
+
+
+<GridLayout rows="auto,*" class="page">
+  <StackLayout row="0" orientation="horizontal">
+    <button text="Add marker" class="btn btn-primary" (tap)="addmarker()"></button>
+    <button text="Animate" class="btn btn-primary" (tap)="animateCamera()"></button>
+
+  </StackLayout>
+  <ContentView row="1" height="100%" width="100%">
+  
+     <Mapbox accessToken="pk.eyJ1Ijoid3VoYW4xMiIsImEiOiJjazljYnk2MWgwM2JwM2VvOG45em1sMjBpIn0.e2I7fau5o6cu6oT_yXnSjA"
+      mapStyle="traffic_day" latitude="26.5887 " longitude="85.5013" hideCompass="true" zoomLevel="10"
+      showUserLocation="true" (mapReady)="onMapReady($event)">
+    </Mapbox>
+  </ContentView>
+</GridLayout>

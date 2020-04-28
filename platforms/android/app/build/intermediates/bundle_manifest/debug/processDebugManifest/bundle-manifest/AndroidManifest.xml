@@ -49,6 +49,8 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+
         <activity
             android:name="com.tns.NativeScriptActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -102,9 +104,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-
-        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
-
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="org.nativescript.blankng.lifecycle-process"

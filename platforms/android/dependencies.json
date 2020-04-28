@@ -36,6 +36,10 @@
         "directory": "..\\..\\node_modules\\nativescript-camera"
     },
     {
+        "name": "nativescript-directions",
+        "directory": "..\\..\\node_modules\\nativescript-directions"
+    },
+    {
         "name": "nativescript-geolocation",
         "directory": "..\\..\\node_modules\\nativescript-geolocation"
     },
@@ -118,6 +122,10 @@
     {
         "name": "nativescript-permissions",
         "directory": "..\\..\\node_modules\\nativescript-permissions"
+    },
+    {
+        "name": "nativescript-appavailability",
+        "directory": "..\\..\\node_modules\\nativescript-appavailability"
     },
     {
         "name": "nativescript-ui-core",

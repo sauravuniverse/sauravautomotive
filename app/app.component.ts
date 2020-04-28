@@ -32,5 +32,17 @@ export class AppComponent implements OnInit {
         const sideDrawer = <RadSideDrawer>app.getRootView();
         sideDrawer.closeDrawer()
     }
+    onupdatepassword()
+    {
+        const sideDrawer = <RadSideDrawer>app.getRootView();
+        sideDrawer.closeDrawer()
+    }
+    onMapReady()
+    {
+        
+        const sideDrawer = <RadSideDrawer>app.getRootView();
+        sideDrawer.closeDrawer()
+    }
+
     
 }

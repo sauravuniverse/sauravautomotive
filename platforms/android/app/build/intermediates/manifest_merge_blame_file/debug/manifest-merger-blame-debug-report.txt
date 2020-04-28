@@ -86,7 +86,7 @@
 42-->[:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:9:22-78
 43
 44    <application
-44-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+44-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:21:2-43:16
 45        android:name="com.tns.NativeScriptApplication"
 45-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
 46        android:allowBackup="true"
@@ -100,120 +100,119 @@
 50-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
 51        android:theme="@style/AppTheme" >
 51-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
-52        <activity
-52-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
-53            android:name="com.tns.NativeScriptActivity"
-53-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
-54            android:configChanges="keyboardHidden|orientation|screenSize"
-54-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
-55            android:label="@string/title_activity_kimera"
-55-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
-56            android:theme="@style/LaunchScreenTheme" >
-56-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
-57            <meta-data
-57-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
-58                android:name="SET_THEME_ON_LAUNCH"
-58-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
-59                android:resource="@style/AppTheme" />
-59-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
-60
-61            <intent-filter>
-61-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
-62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
-62-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
-64-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
-65            </intent-filter>
-66        </activity>
-67        <activity android:name="com.tns.ErrorReportActivity" />
-67-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
-67-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
-68
-69        <service android:name="com.mapbox.android.telemetry.TelemetryService" />
-69-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:16:9-81
-69-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:16:18-78
-70        <service
-70-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:22:9-24:39
-71            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
-71-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:23:13-89
-72            android:process=":lost" />
-72-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:24:13-36
-73        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
-73-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:25:9-29:19
-73-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:25:18-89
-74            <intent-filter>
-74-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:26:13-28:29
-75                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
-75-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:27:17-91
-75-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:27:25-88
-76            </intent-filter>
-77        </service>
-78        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
-78-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:30:9-31:19
-78-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:30:18-84
+52        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+52-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:27:4-93
+52-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:27:13-90
+53
+54        <activity
+54-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:29:3-41:14
+55            android:name="com.tns.NativeScriptActivity"
+55-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:30:4-47
+56            android:configChanges="keyboardHidden|orientation|screenSize"
+56-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:32:4-65
+57            android:label="@string/title_activity_kimera"
+57-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:31:4-49
+58            android:theme="@style/LaunchScreenTheme" >
+58-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:33:4-44
+59            <meta-data
+59-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:4-87
+60                android:name="SET_THEME_ON_LAUNCH"
+60-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:15-49
+61                android:resource="@style/AppTheme" />
+61-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:35:50-84
+62
+63            <intent-filter>
+63-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:37:4-40:20
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:5-57
+64-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:38:13-54
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:39:5-65
+66-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:39:15-62
+67            </intent-filter>
+68        </activity>
+69        <activity android:name="com.tns.ErrorReportActivity" />
+69-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:42:3-57
+69-->C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\AndroidManifest.xml:42:13-55
+70
+71        <service android:name="com.mapbox.android.telemetry.TelemetryService" />
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:16:9-81
+71-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:3.1.5] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e8333d92a85413511843418688d6952b\jetified-mapbox-android-telemetry-3.1.5\AndroidManifest.xml:16:18-78
+72        <service
+72-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:22:9-24:39
+73            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
+73-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:23:13-89
+74            android:process=":lost" />
+74-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:24:13-36
+75        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
+75-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:25:9-29:19
+75-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:25:18-89
+76            <intent-filter>
+76-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:26:13-28:29
+77                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
+77-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:27:17-91
+77-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:27:25-88
+78            </intent-filter>
 79        </service>
-80
-81        <activity
-81-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:9-172
-82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-82-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:19-85
-83            android:exported="false"
-83-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:146-170
-84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-84-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:86-145
-85
-86        <meta-data
-86-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:9-121
-87            android:name="com.google.android.gms.version"
-87-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:20-65
-88            android:value="@integer/google_play_services_version" />
-88-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:66-119
-89
-90        <service
-90-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:18:9-22:19
-91            android:name="net.gotev.uploadservice.UploadService"
-91-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:19:13-65
-92            android:enabled="true"
-92-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:20:13-35
-93            android:exported="false" >
-93-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:21:13-37
-94        </service>
-95
-96        <provider
-96-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
-97            android:name="androidx.core.content.FileProvider"
-97-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
-98            android:authorities="org.nativescript.blankng.provider"
-98-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
-99            android:exported="false"
-99-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
-100            android:grantUriPermissions="true" >
-100-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
-101            <meta-data
-101-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
-102                android:name="android.support.FILE_PROVIDER_PATHS"
-102-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
-103                android:resource="@xml/provider_paths" />
-103-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
-104        </provider>
-105
-106        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
-106-->[:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:9-98
-106-->[:nativescript_mapbox:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\eb98354882c44744db96a86462a46ca5\nativescript_mapbox\AndroidManifest.xml:13:18-95
-107
-108        <provider
-108-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-109            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-109-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-110            android:authorities="org.nativescript.blankng.lifecycle-process"
-110-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-111            android:exported="false"
-111-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-112            android:multiprocess="true" />
-112-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-113    </application>
-114
-115</manifest>
+80        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
+80-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:30:9-31:19
+80-->[com.mapzen.android:lost:3.0.4] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\6df925fdbdecacc1937ef91cc6b54be6\jetified-lost-3.0.4\AndroidManifest.xml:30:18-84
+81        </service>
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:9-172
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:19-85
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:146-170
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5b99d7ba54c51fc19a44c01105e498ea\jetified-play-services-base-11.4.0\AndroidManifest.xml:19:86-145
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:9-121
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:20-65
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:11.4.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\5e65b63d9d7a731b35024b018ac46f59\jetified-play-services-basement-11.4.0\AndroidManifest.xml:20:66-119
+91
+92        <service
+92-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:18:9-22:19
+93            android:name="net.gotev.uploadservice.UploadService"
+93-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:19:13-65
+94            android:enabled="true"
+94-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:20:13-35
+95            android:exported="false" >
+95-->[:uploadservice-release:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\746be1cd9bc24303352945b2eea4219d\uploadservice-release\AndroidManifest.xml:21:13-37
+96        </service>
+97
+98        <provider
+98-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:13:9-22:20
+99            android:name="androidx.core.content.FileProvider"
+99-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:14:13-62
+100            android:authorities="org.nativescript.blankng.provider"
+100-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:15:13-60
+101            android:exported="false"
+101-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:16:13-37
+102            android:grantUriPermissions="true" >
+102-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:17:13-47
+103            <meta-data
+103-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:18:13-21:52
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:19:17-67
+105                android:resource="@xml/provider_paths" />
+105-->[:nativescript_camera:] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\e11a94ea495e3d6372ddabdc13bbb064\jetified-nativescript_camera\AndroidManifest.xml:20:17-55
+106        </provider>
+107        <provider
+107-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+108            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+109            android:authorities="org.nativescript.blankng.lifecycle-process"
+109-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+110            android:exported="false"
+110-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+111            android:multiprocess="true" />
+111-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\saurav\.gradle\caches\transforms-2\files-2.1\a0fa8fd0788ee94594cd7546b6b1ed31\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+112    </application>
+113
+114</manifest>
