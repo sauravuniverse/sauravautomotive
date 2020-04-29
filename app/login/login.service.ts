@@ -25,18 +25,23 @@ export class HttpPostService {
                
             })
            let body={device_id:this.device_id, password:this.password}
-           
-            this.http.put("http://selfdrivecar-945382308.ap-south-1.elb.amazonaws.com/login",body,{headers:headers}).subscribe(res => {
+          // alert("id:"+this.device_id+" pass:"+this.password)
+
+            this.http.put("http://selfdrivecar-945382308.ap-south-1.elb.amazonaws.com/login",body).subscribe(res => {
                 
             this.login_response = JSON.parse(JSON.stringify(res))
-               alert(this.login_response)
-
-            },error=>alert(error))}
+         
+           if(this.login_response)
+               //localStorage.setItem('token',this.login_response["AUTH-TOKEN"]);
+              // alert(localStorage.getItem("token"))
+                this.router.navigate(["/home"])
+            },error=>alert("password and vehicle_id didnt match"))}
             
 
             catch(error)
             {
-                alert(error.toString())
+
+               alert("password and vehicle_id didnt match")
             }
             
 

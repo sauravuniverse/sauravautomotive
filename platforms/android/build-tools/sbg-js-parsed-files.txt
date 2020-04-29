@@ -1,4 +1,5 @@
-C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\bundle.js
-C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\runtime.js
-C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\tns-java-classes.js
-C:\Users\saurav\Desktop\sauravautomotive\platforms\android\app\src\main\assets\app\vendor.js
+C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\fleet\platforms\android\app\src\main\assets\app\bundle.a33c59e1de315cd4ce3c.hot-update.js
+C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\fleet\platforms\android\app\src\main\assets\app\bundle.js
+C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\fleet\platforms\android\app\src\main\assets\app\runtime.js
+C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\fleet\platforms\android\app\src\main\assets\app\tns-java-classes.js
+C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\fleet\platforms\android\app\src\main\assets\app\vendor.js

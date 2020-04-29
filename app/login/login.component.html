@@ -12,13 +12,13 @@
 
 	<StackLayout [visibility]="navigating ? 'collapsed' : 'visible'" orientation="horizontal" class="reg-log-container">
 		<Label text="L O G I N" (tap)="setToLogin()" [ngClass]="[isLogin ? 'reg-active' : 'reg-deactive']"></Label>
-      
+		
     </StackLayout>
 
    
     <StackLayout [visibility]="navigating ? 'collapsed' : 'visible'" orientation="vertical" class="form-container" [ngClass]="[formSubmitted ? 'form-container-submitted' : 'form-container']">
         <TextField  [(ngModel)]="myPostService.device_id" hint="VehicleId"  class="input-field" textAlignment="center" ></TextField>
-		<TextField [(ngModel)]="myPostService.Password" hint="Password" class= "input-field" secure="true" textAlignment="center" ></TextField>
+		<TextField [(ngModel)]="myPostService.password" hint="Password" class= "input-field" secure="true" textAlignment="center" ></TextField>
 		<TextField #item [(ngModel)]="confirmPassword" [visibility]="!isLogin ? 'visible' : 'hidden'" hint="Confirm Password" class="form-input" textAlignment="center"></TextField>
         <Button (touch)="onFocus($event)" #btn text="{{loginTxt}}" (tap)="getdata()"  class="form-button"></Button>
         <label text="ForgotPassword" (tap)="onForgetPassword()" style="color: #C0392B;" class="forget"></label>

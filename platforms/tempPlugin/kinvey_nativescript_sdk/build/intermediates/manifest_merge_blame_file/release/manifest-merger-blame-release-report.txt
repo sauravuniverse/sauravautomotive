@@ -5,10 +5,10 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk android:targetSdkVersion="26" />
-7-->C:\Users\saurav\Desktop\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml
+7-->C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-9-->C:\Users\saurav\Desktop\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml:3:3-76
-9-->C:\Users\saurav\Desktop\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml:3:20-74
+9-->C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml:3:3-76
+9-->C:\Users\USER\Desktop\automotive roadmap\cloud app\check\login\sauravautomotive\platforms\tempPlugin\kinvey_nativescript_sdk\src\main\AndroidManifest.xml:3:20-74
 10
 11</manifest>

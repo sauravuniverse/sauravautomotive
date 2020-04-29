@@ -19,16 +19,17 @@
 	<uses-permission android:name="android.permission.INTERNET"/>
 
 	<application
+		android:usesCleartextTraffic="true"
 		android:name="com.tns.NativeScriptApplication"
 		android:allowBackup="true"
 		android:icon="@drawable/icon"
-		android:label="@string/app_name"
+		android:label="Fleet mngemnt"
 		android:theme="@style/AppTheme">
 		 <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
 
 		<activity
 			android:name="com.tns.NativeScriptActivity"
-			android:label="@string/title_activity_kimera"
+			android:label="fleet"
 			android:configChanges="keyboardHidden|orientation|screenSize"
 			android:theme="@style/LaunchScreenTheme">
 
@@ -40,5 +41,6 @@
 			</intent-filter>
 		</activity>
 		<activity android:name="com.tns.ErrorReportActivity"/>
+
 	</application>
 </manifest>
